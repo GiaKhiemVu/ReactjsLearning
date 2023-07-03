@@ -1,0 +1,12 @@
+.TodoList{
+    list-style-type: decimal;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    width: fit-content;
+
+    & > li{
+        padding: 10px;
+    }
+}
